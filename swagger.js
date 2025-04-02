@@ -5,7 +5,7 @@ const options = {
   definition: {
     openapi: "3.0.1",
     info: {
-      title: "Hello World",
+      title: "Potions API",
       version: "1.0.0",
     },
   },

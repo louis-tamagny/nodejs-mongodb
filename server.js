@@ -6,7 +6,6 @@ const mongoose = require("mongoose");
 const potionsRouter = require("./routes/potions");
 const analyticsRouter = require("./routes/analytics");
 const sanitizeMiddleware = require("sanitize").middleware;
-const authMiddleware = require("./authMiddleware");
 const swaggerView = require("./swagger");
 const authRouter = require("./routes/auth");
 const app = express();
